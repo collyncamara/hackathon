@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    margin: 2% 5%;
+    background-color: #222831;
+    color: #f2f2f2;
+    font-family: "human_bby_officeregular";
+}
+
+h2 {
+    color: #f96d00
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.nav__button {
+    color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title h1 {
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.intro__container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.introduction {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #393e46;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.halo__section {
+    display: flex;
+    justify-content: center;
+}
+
+.challenges {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    background-color: #393e46;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.challenge {
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/*****************************************************/
+/** FONT DECLARATIONS **/
+@font-face {
+    font-family: 'human_bby_officeregular';
+    src: url('/fonts/regular-webfont.woff2') format('woff2'),
+         url('/fonts/regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'human_bby_officeitalic';
+    src: url('/fonts/italic-webfont.woff2') format('woff2'),
+         url('/fonts/italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'human_bby_officebold_italic';
+    src: url('/fonts/bold-italic-webfont.woff2') format('woff2'),
+         url('/fonts/bold-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'human_bby_officebold';
+    src: url('/fonts/bold-webfont.woff2') format('woff2'),
+         url('/fonts/bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
