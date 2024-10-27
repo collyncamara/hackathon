@@ -20,7 +20,6 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    background-color: white;
 }
 
 .header {
@@ -39,25 +38,36 @@ body {
 }
 
 .info_introduction {
+    display: flex;
+    justify-content: center;
     align-items: start;
-    background-color: gray; 
+    margin-top: 15%;
+    margin-left: 100px;
+    background: linear-gradient(to right, #ff5500, #FFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .info_introduction h2 {
-    color: #f2f2f2;
     font-size: 64px;
     letter-spacing: 2px;
     line-height: 64px;
 }
 
-img {
+.main_image {
+    width: 100px;
+    align-items: end;
+    vertical-align: auto;
+}
+
+/*img {
     width: 100%;
     max-width: 500px;
     height: 400px;
     object-fit: cover;
     border-radius: 10px;
     filter: drop-shadow(10px 10px 10px rgb(10,10,10));
-}
+}*/
 
 /*****************************************************/
 /** FONT DECLARATIONS **/
