@@ -4,15 +4,14 @@
     padding: 0;
 }
 
-body { 
-    margin: 2% 5%;
-    background-color: #222831;
-    color: #f2f2f2;
-    font-family: "human_bby_officeregular";
+.main__container {
+    margin: 40px;
 }
 
-h2 {
-    color: #f96d00
+body { 
+    background-color: #222831;
+    color: #f2f2f2;
+    font-family: "Lucida Console","Courier New";
 }
 
 .navbar {
@@ -21,12 +20,12 @@ h2 {
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    background-color: white;
 }
 
 .header {
     display: flex;
     align-items: center;
-    list-style: none;
     text-align: center;
 }
 
@@ -39,61 +38,16 @@ h2 {
     padding: 0 1rem;
 }
 
-.title {
-    display: flex;
-    justify-content: center;
-    
+.info_introduction {
+    align-items: start;
+    background-color: gray; 
 }
 
-.title h1 {
-    align-items: center;
-    padding-bottom: 20px;
-    color: #f96d00;
-    font-family: 'human_bby_officebold';
-}
-
-.intro__container {
-    display: flex;
-    justify-content: center;
-    
-}
-
-.introduction {
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    background-color: #393e46;
-    width: 80%;
-    border-radius: 20px;
-}
-
-.introduction h2 {
+.info_introduction h2 {
     color: #f2f2f2;
-}
-
-.halo__section {
-    display: flex;
-    justify-content: center;
-}
-
-.challenges {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 80%;
-    background-color: #393e46;
-    border-radius: 20px;
-    margin-top: 40px;
-}
-
-.challenge {
-    padding: 40px;
-    align-items: center;
-    text-align: center;
-}
-
-.challenge img {
-    padding-bottom: 20px;
+    font-size: 64px;
+    letter-spacing: 2px;
+    line-height: 64px;
 }
 
 img {
@@ -151,3 +105,8 @@ img {
     font-style: normal;
 
 }
+
+
+/* background: linear-gradient(to right, #ff5500, #FFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
